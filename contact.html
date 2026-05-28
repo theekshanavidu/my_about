@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | Theekshana Viduranga</title>
+  <meta name="description" content="Modern web development business website for Theekshana Viduranga." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<header>
+  <div class="container nav">
+    <a class="logo" href="index.html">
+      <div class="logo-mark">TV</div>
+      <span>THEEKSHANA <small>Web Development Studio</small></span>
+    </a>
+    <button class="menu-btn" aria-label="Toggle menu">☰</button>
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <a class="nav-cta" href="contact.html">Start a Project</a>
+  </div>
+</header>
+
+<main>
+  <section class="page-hero">
+    <div class="container">
+      <div class="breadcrumb">Home / Contact</div>
+      <h1 class="reveal">Let’s start your next website</h1>
+      <p class="reveal">Use these contact details to discuss a new website, redesign, or custom front-end project.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container grid-2">
+      <div class="card reveal">
+        <span class="badge"><span class="badge-dot"></span> Contact details</span>
+        <div class="contact-pill"><div>📞</div><div><span>Phone</span><strong><a href="tel:0714667630">0714667630</a></strong></div></div>
+        <div class="contact-pill"><div>✉️</div><div><span>Email</span><strong><a href="mailto:theekshanaviduranga832@gmail.com">theekshanaviduranga832@gmail.com</a></strong></div></div>
+        <div class="contact-pill"><div>👤</div><div><span>Name</span><strong>Theekshana Viduranga</strong></div></div>
+      </div>
+
+      <div class="card reveal">
+        <span class="badge"><span class="badge-dot"></span> Project inquiry</span>
+        <h3>Tell me about your website</h3>
+        <form class="form" onsubmit="event.preventDefault(); alert('Form demo only. Connect this form to your backend or email service.');">
+          <input class="input" type="text" placeholder="Your name" />
+          <input class="input" type="email" placeholder="Your email" />
+          <input class="input" type="text" placeholder="Project type" />
+          <textarea class="textarea" placeholder="Tell me what you need"></textarea>
+          <button class="btn primary" type="submit">Send Inquiry</button>
+        </form>
+        <p class="note">This form is ready for styling; you can connect it to Formspree, EmailJS, PHP, or your own backend later.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container faq">
+      <div class="section-head reveal">
+        <div>
+          <span class="badge"><span class="badge-dot"></span> FAQ</span>
+          <h2>Common questions</h2>
+        </div>
+      </div>
+      <details class="reveal"><summary>Can this be edited later?</summary><p>Yes. The files are organized so you can update text, colors, pages, and sections easily.</p></details>
+      <details class="reveal"><summary>Is it mobile friendly?</summary><p>Yes. The layout collapses cleanly for smaller screens and keeps the main actions easy to use.</p></details>
+      <details class="reveal"><summary>Can I add more pages?</summary><p>Yes. Just copy the existing page structure and link it in the navigation.</p></details>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container small">© <span id="year"></span> Theekshana Viduranga.</div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
